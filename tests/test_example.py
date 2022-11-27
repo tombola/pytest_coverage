@@ -13,6 +13,7 @@ def test_pregnancy_means_accessing_doctor_without_having_to_wait():
 
 def test_some_function_a():
     example2.some_function_a("arbitrary string.")
+    example2.some_function_a("arbitrary string")
     example2.some_function_a("")
     example2.some_function_b()
     # pass
