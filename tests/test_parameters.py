@@ -24,3 +24,15 @@ def test_shouting(words):
 )
 def test_shouting_nothing(words):
     assert shout(words) is None
+
+
+@pytest.mark.xfail
+@pytest.mark.parametrize(
+    "words",
+    [
+        "",
+        None,
+    ],
+)
+def test_shout_nothing_alternative(words):
+    assert shout(words)
