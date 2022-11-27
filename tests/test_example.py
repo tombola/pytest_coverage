@@ -1,5 +1,5 @@
-import example2
-from example import Patient, determine_queue_position
+from .. import example2
+from ..patients_example import Patient, determine_queue_position
 
 
 def test_pregnancy_means_accessing_doctor_without_having_to_wait():
