@@ -3,7 +3,7 @@
 ```
 pytest --cov
 pytest --cov --cov-report=html
-pytest --cov --cov-fail-under 85 && say "o.k."
+pytest --cov --cov-fail-under 85 && echo "ok"
 ```
 
 - https://pythonbytes.fm/episodes/show/257/python-launcher-launching-python-everywhere
