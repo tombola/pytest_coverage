@@ -16,3 +16,10 @@ pytest --cov --cov-fail-under 85 && echo "ok"
 `pre-commit install`
 
 https://pre-commit.com/#3-install-the-git-hook-scripts
+
+## Features
+
+- block requests network access for tests
+- check test coverage on pre-commit
+- only run specified tests on linux
+- use test parameters to check many different inputs in one test
