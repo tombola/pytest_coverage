@@ -5,3 +5,4 @@ pre-commit
 
 # Strict lint black,isort,autoflake8
 shed==0.10.7
+requests
