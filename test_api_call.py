@@ -1,5 +1,6 @@
-import requests
 import pytest
+import requests
+
 
 # Skip mark is provided by pytest
 @pytest.mark.skip
