@@ -1,8 +1,8 @@
-pytest==7.2.0
-pytest-cov==4.0.0
 coverage==6.5.0
 pre-commit
+pytest==7.2.0
+pytest-cov==4.0.0
+requests
 
 # Strict lint black,isort,autoflake8
 shed==0.10.7
-requests

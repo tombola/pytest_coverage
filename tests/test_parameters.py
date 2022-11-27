@@ -1,4 +1,5 @@
 import pytest
+
 from ..string_example import shout
 
 

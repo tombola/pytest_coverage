@@ -1,6 +1,6 @@
 """
-Pytest looks for a conftest.py module in each directory. 
-can use fixtures from here  throughout the module’s parent directory 
+Pytest looks for a conftest.py module in each directory.
+can use fixtures from here  throughout the module’s parent directory
 and in any subdirectories without having to import it.
 
 https://realpython.com/pytest-python-testing/#how-to-use-fixtures-at-scale
