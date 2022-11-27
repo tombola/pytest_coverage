@@ -1,4 +1,4 @@
-## Pytest and Code coverage experiments
+# Pytest and Code coverage experiments
 
 ```
 pytest --cov
@@ -10,3 +10,9 @@ pytest --cov --cov-fail-under 85 && say "o.k."
 - https://nedbatchelder.com/blog/202111/coverage_goals.html
 - https://stackoverflow.com/questions/59420123/is-there-a-standard-way-to-fail-pytest-if-test-coverage-falls-under-x
 - https://medium.com/@cjolowicz/hypermodern-python-2-testing-ae907a920260
+
+## Pre-commit
+
+`pre-commit install`
+
+https://pre-commit.com/#3-install-the-git-hook-scripts
